@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
 
       <ul className="nav-menu">
-      <li onClick={()=>{setMenu("")}}><Link to='/'>Home</Link> {menu === "home"?<hr/>:<></>}</li>
+      <li onClick={()=>{setMenu("")}}><Link style={{textDecoration: 'none'}} to='/'>Home</Link> {menu === "home"?<hr/>:<></>}</li>
       {/* <li><div class="dropdown"> */}
   {/* <button class="dropbtn">Type</button> */}
   {/* <div class="dropdown-content"> */}
@@ -24,9 +24,9 @@ const Navbar = () => {
     {/* <a href="#">Link 3</a> */}
   {/* </div> */}
 {/* </div></li> */}
-<li onClick={()=>{setMenu("indian")}}><Link to='/indian'>Indian</Link> {menu === "indian"?<hr/>:<></>}</li>
-<li onClick={()=>{setMenu("chinese")}}><Link to='/chinese'>Chinese</Link> {menu === "chinese"?<hr/>:<></>}</li>
-<li onClick={()=>{setMenu("continental")}}><Link to='/continental'>Continental</Link> {menu === "continental"?<hr/>:<></>}</li>
+<li onClick={()=>{setMenu("indian")}}><Link style={{textDecoration: 'none'}} to='/indian'>Indian</Link> {menu === "indian"?<hr/>:<></>}</li>
+<li onClick={()=>{setMenu("chinese")}}><Link style={{textDecoration: 'none'}} to='/chinese'>Chinese</Link> {menu === "chinese"?<hr/>:<></>}</li>
+<li onClick={()=>{setMenu("continental")}}><Link style={{textDecoration: 'none'}} to='/continental'>Continental</Link> {menu === "continental"?<hr/>:<></>}</li>
       <li><div class="topnav"> <input type="text" placeholder="Search.."/></div></li>
       </ul>
 

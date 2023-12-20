@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding: 16 px;
+    background: linear-gradient(180deg,rgba(53, 3, 3, 0.313),rgba(0, 0, 0, 0) 60%);
     box-shadow: 0 1px 3px -2px black;
 }
 
