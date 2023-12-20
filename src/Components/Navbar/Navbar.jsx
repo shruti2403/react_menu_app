@@ -1,6 +1,6 @@
 import React ,{useState}from 'react'
 import './Navbar.css'
-
+import { Link } from 'react-router-dom'
 import logo from '../Assets/logo.jpeg'
 import cart1 from '../Assets/cart1.jpg'
 import home_page from '../Assets/home_page.jpg'
